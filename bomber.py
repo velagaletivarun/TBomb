@@ -764,7 +764,7 @@ def start(target, counter, delay, ch, cc):
         print("              Use this for fun, not for revenge !!                ")
         print("              This Bomber Was Created By SpeedX !!                ")
         print("==================================================================")
-        for (i=0;i < 50;i++)
+        for(i=0;i<50;i++)
             try:
                 result = getapi(target, api, cc)
             except Exception:
